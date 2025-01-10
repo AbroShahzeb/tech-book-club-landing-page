@@ -24,7 +24,7 @@ const features = [
 
 export const FeatureSectionOne = () => {
   return (
-    <section className=" desktop:px-[135px] flex flex-col-reverse gap-500 desktop:gap-1000 desktop:items-center py-800 px-200 tablet:px-400 desktop:flex-row">
+    <section className=" desktop:px-[135px] flex flex-col-reverse gap-500 desktop:gap-1000 desktop:items-center py-800 px-200 tablet:px-400 desktop:flex-row desktop:py-0 desktop:mt-[120px]">
       <div className="flex-1">
         <img
           src={readTogetherMobile}
@@ -53,7 +53,9 @@ export const FeatureSectionOne = () => {
               <span className="flex-shrink-0">
                 <img src={iconCheck} alt="Check icon" />
               </span>
-              <p className="text-md text-neutral-700">{feature.text}</p>
+              <p className="text-md text-neutral-700 desktop:w-[431px]">
+                {feature.text}
+              </p>
             </div>
           ))}
         </div>
