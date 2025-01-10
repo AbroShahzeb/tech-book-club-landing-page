@@ -7,7 +7,7 @@ import logoLinkedin from "../assets/images/logo-linkedin.svg";
 export const Footer = () => {
   return (
     <footer className="mt-800 tablet:mt-1000 desktop:mt-[120px] bg-neutral-900 rounded-t-16 pt-600 px-200 tablet:pt-800 tablet:px-400 desktop:pt-1000 bg-pattern-dark">
-      <div className="flex flex-col items-center desktop:px-[135px]">
+      <div className="flex flex-col items-center desktop:px-[135px] desktop:max-w-[753px]">
         <h2 className=" text-neutral-0 text-center text-xl-mobile font-semibold tablet:text-2xl font-martian-mono">
           Ready to debug your reading list?
         </h2>
