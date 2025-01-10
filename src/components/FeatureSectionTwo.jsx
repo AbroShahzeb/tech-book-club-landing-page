@@ -7,7 +7,7 @@ import logosTech from "../assets/images/logos-tech.svg";
 export const FeatureSectionTwo = () => {
   return (
     <section className=" desktop:px-[135px] flex flex-col-reverse gap-500 desktop:gap-1000 desktop:items-center py-800 px-200 tablet:px-400 desktop:flex-row-reverse pb-0 desktop:py-0 desktop:mt-[120px]">
-      <div className="flex-1 relative">
+      <div className="flex-1 relative desktop:h-[537]">
         {/* Tech logos  */}
         <div className="hidden desktop:block absolute bottom-[45px] -left-[90px]">
           <img src={logosTech} alt="Tech logos" />

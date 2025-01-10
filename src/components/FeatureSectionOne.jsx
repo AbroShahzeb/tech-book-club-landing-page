@@ -25,7 +25,7 @@ const features = [
 export const FeatureSectionOne = () => {
   return (
     <section className=" desktop:px-[135px] flex flex-col-reverse gap-500 desktop:gap-1000 desktop:items-center py-800 px-200 tablet:px-400 desktop:flex-row desktop:py-0 desktop:mt-[120px]">
-      <div className="flex-1">
+      <div className="flex-1 desktop:h-[540px]">
         <img
           src={readTogetherMobile}
           alt="Read together Illustration"
