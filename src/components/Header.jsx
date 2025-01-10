@@ -18,7 +18,7 @@ export const Header = () => {
 
       <Navigation />
       <div className="flex flex-col gap-800 relative z-10 desktop:flex-row desktop:items-center mt-600 tablet:mt-800 desktop:mt-1000">
-        <div>
+        <div className="flex flex-col justify-center desktop:flex-1">
           <div className="">
             <h1 className="text-3xl-mobile tablet:text-3xl font-bold bg-text-gradient bg-clip-text text-transparent font-martian-mono">
               Join the ultimate tech book club
@@ -39,7 +39,7 @@ export const Header = () => {
           <DevelopersJoined />
         </div>
 
-        <div className="h-full flex items-center">
+        <div className="flex items-center self-stretch desktop:flex-1">
           {/* FOR MOBILE SCREENS */}
           <img
             src={HeroImageMobile}
@@ -58,7 +58,7 @@ export const Header = () => {
           <img
             src={HeroImageDesktop}
             alt="Hero Image"
-            className="rounded-8 hidden desktop:block w-full h-full"
+            className="rounded-8 hidden desktop:block w-full h-full flex-shrink-0"
           />
         </div>
       </div>
