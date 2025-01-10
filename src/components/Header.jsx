@@ -9,7 +9,7 @@ import { DevelopersJoined } from "../generalComponents/DevelopersJoined";
 
 export const Header = () => {
   return (
-    <header className="relative w-full bg-neutral-100 px-200 pt-300 pb-1000 tablet:px-400 desktop:px-[135px] overflow-hidden">
+    <header className="relative w-full bg-neutral-100 px-200 pt-300 pb-1000 tablet:px-400 desktop:px-[135px] overflow-hidden desktop:pt-400">
       {/* Background Pattern */}
       <div className="absolute z-0 top-0 left-0 h-[820px] tablet:h-[1127px] w-full bg-pattern-light bg-no-repeat bg-cover"></div>
 
