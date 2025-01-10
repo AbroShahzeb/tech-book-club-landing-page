@@ -23,7 +23,7 @@ export const Header = () => {
             <h1 className="text-3xl-mobile tablet:text-3xl font-bold bg-text-gradient bg-clip-text text-transparent font-martian-mono">
               Join the ultimate tech book club
             </h1>
-            <p className="mt-300 text-neutral-700 text-md">
+            <p className="mt-300 text-neutral-700 text-md self-stretch">
               Turn your reading time into learning time with fellow tech
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
@@ -39,7 +39,7 @@ export const Header = () => {
           <DevelopersJoined />
         </div>
 
-        <div className="flex items-center self-stretch desktop:flex-1">
+        <div className="flex items-center self-stretch desktop:flex-1 desktop:h-[606px]">
           {/* FOR MOBILE SCREENS */}
           <img
             src={HeroImageMobile}
