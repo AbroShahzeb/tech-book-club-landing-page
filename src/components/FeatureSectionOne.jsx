@@ -49,13 +49,14 @@ export const FeatureSectionOne = () => {
         </h2>
         <div className="flex flex-col gap-200">
           {features.map((feature) => (
-            <div key={feature.id} className="flex items-center gap-[14px]">
+            <div
+              key={feature.id}
+              className="flex items-center gap-[14px]  desktop:w-[431px]"
+            >
               <span className="flex-shrink-0">
                 <img src={iconCheck} alt="Check icon" />
               </span>
-              <p className="text-md text-neutral-700 desktop:w-[431px]">
-                {feature.text}
-              </p>
+              <p className="text-md text-neutral-700">{feature.text}</p>
             </div>
           ))}
         </div>
