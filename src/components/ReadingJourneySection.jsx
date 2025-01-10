@@ -26,7 +26,7 @@ const steps = [
 
 export const ReadingJourneySection = () => {
   return (
-    <section className="hidden mx-[135px] mt-[56px] mb-[120px] relative rounded-12 bg-neutral-100 py-1000 desktop:flex flex-col items-center gap-800 font-martian-mono bg-pattern-light overflow-hidden">
+    <section className="hidden mx-[135px] mt-[56px] mb-[120px] relative rounded-12 bg-neutral-100 py-1000 desktop:flex flex-col items-center gap-800 font-martian-mono bg-pattern-light overflow-hidden desktop:mt-[120px]">
       <div className="absolute w-[684px] h-[684px] right-0 bottom-0 translate-x-1/2 translate-y-1/2">
         <img src={patternGlow} alt="Glow pattern" />
       </div>
