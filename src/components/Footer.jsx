@@ -1,7 +1,7 @@
 import { Button } from "../generalComponents/Button";
 import { DevelopersJoined } from "../generalComponents/DevelopersJoined";
 import { IconArrowUp } from "../generalComponents/svgIcons/iconArrowUp";
-import logoBlueSky from "../assets/images/logo-blueSky.svg";
+import logoBlueSky from "../assets/images/logo-bluesky.svg";
 import logoLinkedin from "../assets/images/logo-linkedin.svg";
 
 export const Footer = () => {
